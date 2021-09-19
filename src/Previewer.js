@@ -5,7 +5,7 @@ const Previewer = ({ markdown }) => {
   return (
     <div className="Previewer">
       <div className="toolbar">Previewer</div>
-      <div id="previewer" dangerouslySetInnerHTML={{ __html: markdown }}></div>
+      <div id="preview" dangerouslySetInnerHTML={{ __html: markdown }}></div>
     </div>
   );
 };
