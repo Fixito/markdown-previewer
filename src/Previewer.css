@@ -1,0 +1,64 @@
+.Previewer {
+  max-width: 800px;
+  margin: 1.125rem auto;
+  min-height: 200px;
+}
+
+.toolbar {
+  font-family: "Russo One", sans-serif;
+  background-color: #4aa3a3;
+  padding: 0.3rem;
+  border: 1px solid #1d2f2f;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+}
+
+#previewer {
+  background-color: #c0d8d8;
+  padding: 0 1rem;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+  border-top: none;
+}
+
+#previewer blockquote {
+  border-left: 3px solid #224b4b;
+  color: #224b4b;
+  padding-left: 5px;
+  margin-left: 25px;
+}
+#previewer > p > code {
+  padding: 3px;
+}
+#previewer code {
+  background: white;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+#previewer pre {
+  display: block;
+  overflow: auto;
+  background: white;
+  padding: 5px;
+  line-height: 1.2;
+}
+#previewer h1 {
+  margin-top: 0;
+  padding-top: 1rem;
+  border-bottom: 2px solid #224b4b;
+}
+#previewer h2 {
+  border-bottom: 1px solid #224b4b;
+}
+#previewer table {
+  border-collapse: collapse;
+}
+#previewer td,
+#previewer th {
+  border: 2px solid #224b4b;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#previewer img {
+  display: block;
+  max-width: 90%;
+  margin: 2rem auto;
+}
